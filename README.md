@@ -20,5 +20,5 @@ int main()
 			cout << "Item no [" << i << "] packed!" << endl;
 		}
 	}
-	return 0;
-
+	return0;
+	}

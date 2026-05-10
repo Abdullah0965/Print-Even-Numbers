@@ -7,3 +7,18 @@ The factory manager has a strict rule: The robot must only pick up and pack the 
 
 The Goal:
 You need to write a C++ program that loops through the numbers 1 to 15. For every number, the computer needs to make a decision: If the number is even, print "Item [number] Packed!".
+
+C++ Code:
+#include <iostream>
+using namespace std;
+int main()
+{
+	for (int i = 1; i <= 15; i++)
+	{
+		if (i % 2 == 0)
+		{
+			cout << "Item no [" << i << "] packed!" << endl;
+		}
+	}
+	return 0;
+
